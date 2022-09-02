@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-device-width: 1024px){ 
+    html, body{
+        height: 100%;
+        width: 100%;
+        background-color: hsl(257, 40%, 49%);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #bg {
+        width: 93%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #logo{
+        position: absolute;
+        width: 170px;
+        top: 2.5rem;
+        left: 100px;
+    }
+
+    #illustration{
+        position: absolute;
+        top: 157px;
+        left: 100px;
+        width: 650px;
+    }
+}
+
+
+/* FOOTER */
+
+.attribution{ 
+    font-size: 11px; 
+    color: white;
+    text-align: center; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
